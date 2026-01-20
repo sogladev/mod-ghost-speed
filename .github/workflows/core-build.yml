@@ -7,7 +7,9 @@ on:
     branches:
       - 'master'
   workflow_dispatch:
-
+  schedule:
+    - cron: '0 6 * * 5'
+    
 jobs:
   build:
     uses: azerothcore/reusable-workflows/.github/workflows/core_build_modules.yml@main

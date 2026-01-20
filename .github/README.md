@@ -1,10 +1,10 @@
 
 # AzerothCore Module Ghost Speed
 
-- Latest build status with azerothcore:
+- Latest build status with AzerothCore:
 
 [![Build Status](
-https://github.com/sogladev/mod-ghost-speed/actions/workflows/core-build.yml/badge.svg?branch=master&event=push)](https://github.com/sogladev/mod-ghost-speed)
+https://github.com/sogladev/mod-ghost-speed/actions/workflows/core-build.yml/badge.svg?branch=master)](https://github.com/sogladev/mod-ghost-speed)
 
 This is a module for [AzerothCore](http://www.azerothcore.org) that changes the speed while dead
 
@@ -15,10 +15,10 @@ This is a module for [AzerothCore](http://www.azerothcore.org) that changes the 
 https://www.azerothcore.org/wiki/installing-a-module
 
 1. Requires source recompilation
-2. Modify config
-  found in `/etc/modules`, copy `.conf.dist` to `.conf` and edit
+2. Modify the config
+  found in `/etc/modules`, copy `.conf.dist` to `.conf`, and edit
 3. Apply database changes
-  this should be done automaticly `data/sql/db-world/base/ghost_speed.sql`
+  . This should be done automatically, `data/sql/db-world/base/ghost_speed.sql`
 
 ## How to remove
 
@@ -27,11 +27,11 @@ https://www.azerothcore.org/wiki/installing-a-module
 2. Remove `mod-ghost-speed` folder
 
 ## Resources
-ghost speed is set by aura 8326
+Ghost speed is set by aura 8326
 
 Night Elves are applied `ID - 20584 Ghost` with Blizzard Default speed of 75 (+50% increase)
 
-Highest speed value is applied
+The highest speed value is applied
 
 example of usage in the core
 - https://github.com/azerothcore/azerothcore-wotlk/blob/a196f7f28aa263dc7f9c532e15839f3b409fb68f/src/server/game/Handlers/CharacterHandler.cpp#L957
